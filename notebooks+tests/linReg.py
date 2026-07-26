@@ -6,7 +6,7 @@ import math
 import statistics
 from itertools import combinations
 
-hdf=pd.read_csv('housing_with_features.csv').dropna()
+hdf=pd.read_csv('../data/housing_with_features.csv').dropna()
 features=list(hdf)
 features.remove('median_house_value')
 maxR=-1
