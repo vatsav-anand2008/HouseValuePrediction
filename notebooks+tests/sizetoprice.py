@@ -6,7 +6,7 @@ import numpy as np
 from sklearn.metrics import r2_score
 import math
 
-housedf=pd.read_csv('1553768847-housing.csv')
+housedf=pd.read_csv('../data/1553768847-housing.csv')
 categories=housedf['ocean_proximity'].unique()
 
 for category in categories:
