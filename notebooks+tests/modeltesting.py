@@ -6,7 +6,7 @@ from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 import numpy as np
 import pandas as pd
 
-housedf=pd.read_csv('data/housing_with_features.csv')
+housedf=pd.read_csv('../data/housing_with_features.csv')
 #housedf.dropna()
 
 X = housedf.drop("median_house_value", axis=1)
