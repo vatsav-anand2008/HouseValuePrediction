@@ -30,10 +30,7 @@ Predict California housing prices using machine learning.
 
 | Model | Test R² |
 |--------|---------|
-| Linear Regression | 0.xxx |
-| Decision Tree | 0.xxx |
-| Random Forest | 0.817 |
-| Gradient Boosting | 0.xxx |
-
-## Repository Structure
-
+| Linear Regression | 0.667 |
+| Decision Tree | 0.653 |
+| Random Forest | 0.826 |
+| Gradient Boosting | 0.793 |
