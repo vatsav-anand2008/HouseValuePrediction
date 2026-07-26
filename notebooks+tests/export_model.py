@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import joblib
 
-housedf=pd.read_csv('data/housing_with_features.csv').dropna()
+housedf=pd.read_csv('../data/housing_with_features.csv').dropna()
 
 X = housedf.drop("median_house_value", axis=1)
 y = housedf["median_house_value"]
