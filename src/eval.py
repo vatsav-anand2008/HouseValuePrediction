@@ -5,7 +5,7 @@ from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error
 
 from addfeatures import add_features
 
-df = pd.read_csv("Scripts/data/1553768847-housing.csv")
+df = pd.read_csv("../data/1553768847-housing.csv")
 
 df = add_features(df)
 
