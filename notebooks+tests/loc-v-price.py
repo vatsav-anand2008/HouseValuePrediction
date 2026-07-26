@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 plt.figure(figsize=(15,10))
 
-housedf=pd.read_csv('1553768847-housing.csv')
+housedf=pd.read_csv('../data/1553768847-housing.csv')
 inland=housedf[housedf['ocean_proximity']=='INLAND']['median_house_value']
 nearBay=housedf[housedf['ocean_proximity']=='NEAR BAY']['median_house_value']
 nearOcean=housedf[housedf['ocean_proximity']=='NEAR OCEAN']['median_house_value']
