@@ -5,7 +5,7 @@ from sklearn.metrics import r2_score
 import math
 import statistics
 
-housedf=pd.read_csv('1553768847-housing.csv')
+housedf=pd.read_csv('../data/1553768847-housing.csv')
 columns=list(housedf)
 categories=housedf['ocean_proximity'].unique()
 #print(categories[:-1])
